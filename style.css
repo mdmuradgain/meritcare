@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #A72444;
-  --secondary-color: #256696;
+  --primary-color: #618D04;
+  --secondary-color: #053C54;
   --hover-bg-color: #f0f0f0;
   --font-color: #256696;
 }
@@ -134,10 +134,12 @@ nav ul li a:hover {
 
 .login-btn {
   background-color: var(--primary-color);
+  border-radius: 20px;
 }
 
 .signup-btn {
   background-color: var(--secondary-color);
+  border-radius: 20px;
 }
 
 .login-btn:hover,
