@@ -10,11 +10,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: "Hind Siliguri", sans-serif;
+body{
+  font-family: "Hind Siliguri", system-ui;
 }
-
 .elementor-widget-container {
   display: flex;
   justify-content: space-between;
@@ -208,12 +206,99 @@ nav ul li a:hover {
     padding: 10px;
   }
 }
+.allprgm{
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4A4A4A;
+  text-align: center;
+  margin-top: 50px;
+}
+.programs {
+  width: 80%;
+  gap: 50px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.program-card {
+  background-color: white;
+  width: 30%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.program-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h3 {
+  color: #333;
+  margin: 20px 0 10px;
+  font-size: 18px;
+}
+
+p {
+  color: #555;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.buttons {
+  margin-top: 20px;
+  bottom: 0;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.offline-btn {
+  background-color: #0066cc;
+  color: white;
+  margin-right: 10px;
+}
+
+.online-btn {
+  background-color: #00cc66;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.dropdowns {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+select {
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+select:focus {
+  border-color: #0066cc;
+}
 
 
 
 .featured-books {
   text-align: center;
-  margin: 50px 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .featured-books h2 {
@@ -234,7 +319,6 @@ nav ul li a:hover {
   height: auto;
   justify-content: space-between;
   overflow: hidden;
-  width: 80%;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -292,9 +376,6 @@ nav ul li a:hover {
   background-color: #f0f0f0;
 }
 
-
-
-
 .branches-section {
   width: 80%;
   margin: 0 auto;
@@ -324,7 +405,6 @@ nav ul li a:hover {
 .branches-table {
   width: 100%;
   border-collapse: collapse;
-  font-family: 'Roboto', sans-serif;
 }
 
 .branches-table th, .branches-table td {
@@ -423,14 +503,12 @@ nav ul li a:hover {
 }
 
 .teacher-card h3 {
-  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: #333;
   margin-bottom: 10px;
 }
 
 .teacher-card p {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #777;
   margin-bottom: 15px;
@@ -532,13 +610,11 @@ nav ul li a:hover {
   font-size: 28px;
   margin-bottom: 10px;
   color: #007bff;
-  font-family: 'Roboto', sans-serif;
 }
 
 .achievement-card p {
   font-size: 18px;
   color: #666;
-  font-family: 'Roboto', sans-serif;
 }
 .icon {
   font-size: 50px;
@@ -610,7 +686,6 @@ nav ul li a:hover {
   font-size: 24px;
   margin-bottom: 10px;
   color: #007bff;
-  font-family: 'Roboto', sans-serif;
 }
 
 .news-event-content p {
@@ -623,7 +698,6 @@ nav ul li a:hover {
   font-size: 16px;
   color: #007bff;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
 }
 
 .read-more:hover {
